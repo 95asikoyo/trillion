@@ -1,0 +1,369 @@
+* {
+  box-sizing: border-box;
+}
+
+.main-nav {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.main-nav li {
+  padding: 0 5%;
+}
+
+.main-header {
+  background: url(./img/nairobi_ciudad_kenia_africa_1920x1200.jpg) center;
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 0;
+}
+
+img.cart {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
+
+body {
+  margin: 0;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img.logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+
+img.logo:hover {
+  width: 200px;
+  height: 200px;
+  transition: 1s ease-out;
+  border-radius: 4px;
+}
+ul {
+  list-style: none;
+  margin-top: 2rem;
+}
+
+ul li {
+  display: inline-block;
+  padding: 10px 15px;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+nav a {
+  color: red;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 8px 12px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+nav a:hover {
+  background-color: red;
+  color: white;
+  transition: 0.5s ease-in-out;
+  border-radius: 0;
+}
+
+nav a.active {
+  background: lawngreen;
+}
+
+#main-menu {
+  position: fixed;
+  text-align: center;
+}
+
+section {
+  width: 100%;
+  margin: 0;
+  padding: 50px;
+}
+
+#section1 {
+  background: url(./img/seo.png) center;
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-attachment: fixed;
+}
+
+#section2 {
+  background: url(./img/website.jpg) center;
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-attachment: fixed;
+}
+
+#section3 {
+  background-image: url(./img/advert.png);
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-attachment: fixed;
+}
+
+#section4 {
+  background-image: url(./img/content.jpg);
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-attachment: fixed;
+}
+
+#section5 {
+  background-color: black;
+  background-size: cover;
+  background-size: contain;
+  height: 20vh;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+img.top {
+  background-color: transparent;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  animation: ease 1.5s up infinite;
+  margin-top: 5rem;
+}
+
+section.footer {
+  background-size: 30vh;
+}
+
+.social-icons {
+  list-style: none;
+  margin-bottom: 5.4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons i:hover {
+  color: red;
+}
+
+h3 {
+  margin-top: 10%;
+}
+
+h4 {
+  text-align: center;
+  font-size: 2rem;
+  color: black;
+}
+
+h1 {
+  color: red;
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+@keyframes up {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-1rem);
+  }
+}
+
+#section5 {
+  width: 100%;
+  margin: 0 auto;
+  height: 30%;
+}
+
+@media (max-width: 500px) {
+  nav a {
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+
+  h1.band-name {
+    display: none;
+  }
+
+  img.cart {
+    width: 70px;
+    height: 70px;
+  }
+  ul li {
+    display: inline-block;
+    padding: 2px 4px;
+    margin-top: -2rem;
+  }
+
+  ul {
+    margin-top: 0.5rem;
+  }
+
+  h1 {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: -1rem;
+  }
+
+  h3 {
+    font-size: 0.8rem;
+    margin-top: 100%;
+  }
+
+  nav a {
+    font-size: 0.5rem;
+  }
+}
+
+footer {
+  background: black;
+  padding: 90px 0;
+  color: whitesmoke;
+}
+
+.footer-container {
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+.logo {
+  width: 300px;
+  height: 300px;
+  margin-top: 1rem;
+}
+
+.social-media {
+  margin: 20px 0;
+}
+
+.social-media a {
+  color: whitesmoke;
+  margin-right: 25px;
+  font-size: 22px;
+  text-decoration: none;
+  transition: 0.3s linear;
+}
+
+.social-media a:hover {
+  color: red;
+}
+
+.right-col h1 {
+  font-size: 26px;
+}
+
+.border {
+  width: 100px;
+  height: 4px;
+  background: red;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.txtb {
+  flex: 1;
+  padding: 18px 40px;
+  font-size: 16px;
+  color: #293043;
+  background: #ddd;
+  border: none;
+  font-weight: 700;
+  outline: none;
+  border-radius: 30px;
+  min-width: 260px;
+}
+
+.btn {
+  padding: 18px 40px;
+  font-size: 16px;
+  color: red;
+  background: white;
+  border: none;
+  font-weight: 700;
+  outline: none;
+  border-radius: 30px;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: opacity 0.3s linear;
+}
+
+.btn:hover {
+  background-color: red;
+  border-radius: 0;
+  transition: 0.5s ease-in-out;
+  color: white;
+}
+
+.page-content {
+  min-height: 100vh;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-col {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 960px) {
+  .footer-container {
+    max-width: 600px;
+  }
+  .right-col {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .left-col {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .btn {
+    margin: 0;
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+i.fab {
+  font-size: 2rem;
+}
